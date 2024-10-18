@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RELIEFCHAIN</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="assets/rc.png">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Oswald:wght@600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="index.html" class="logo">
+          <img src="assets/reliefchain.png" alt="">
+        </a>
+      </h1>
+
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">RELIEFCHAIN</a>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>
+              <span>Home</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>
+              <span>About</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+
+          <li>
+            <a href="chain-one.html" class="navbar-link" >
+              <span>ReliefChain 1.0</span>
+            </a>
+          </li>
+
+          
+          <li>
+            <a href="chain-two.html" class="navbar-link">
+              <span>ReliefChain 2.0</span>
+            </a>
+          </li>
+
+
+
+
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>
+              <span>Contact</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-action">
+
+
+
+        <a href="donate.html">
+          <button class="btn btn-primary">
+            <span>Donate Now</span>
+          </button>
+        </a>
+
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <img src="assets/rc.png" width="32" height="7" alt="Wavy line">
+
+            <span>ReliefChain</span>
+          </p>
+
+          <h2 class="h1 hero-title">
+            <strong>A Unified Relief Platform</strong>
+          </h2>
+
+          <p class="hero-text">
+            At ReliefChain, we are revolutionizing disaster relief and resource management through cutting-edge
+            technology. Born out of a vision to bridge the gap between disaster-stricken areas and critical resources,
+            we combine the power of blockchain and AI to provide timely and transparent solutions.</p>
+
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features">
+        <div class="container">
+
+          <ul class="features-list">
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="shield-checkmark-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title">Safe Transactions</h3>
+
+                <p class="item-text">
+                  Your Donations will reach the right audience.
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="water-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title">Ignite Impact</h3>
+
+                <p class="item-text">
+                  Make your own campaigns or donate to others.
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="leaf-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title">Spread Word</h3>
+
+                <p class="item-text">
+                  Use social media to make sure everyone joins.
+                </p>
+              </div>
+            </li>
+
+            <li class="features-item">
+              <div class="item-icon">
+                <ion-icon name="snow-outline"></ion-icon>
+              </div>
+
+              <div>
+                <h3 class="h4 item-title">Go Global</h3>
+
+                <p class="item-text">
+                  Join hands with donators all around the globe.
+                </p>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <div class="about-banner">
+
+            <h2 class="deco-title">About Us</h2>
+
+            <img src="assets/example.jpg" width="58" height="261" alt="" class="deco-img">
+
+            <div class="banner-row">
+
+              <div class="banner-col">
+                <img src="assets/long1.jpg" width="315" height="380" loading="lazy" alt="Tiger" class="about-img w-100">
+
+                <img src="assets/long2.jpg" width="386" height="250" loading="lazy" alt="Panda"
+                  class="about-img about-img-2 w-100">
+              </div>
+
+              <div class="banner-col">
+                <img src="assets/long3.jpg" width="250" height="277" loading="lazy" alt="Elephant"
+                  class="about-img about-img-3 w-100">
+
+                <img src="assets/long4.jpg" width="315" height="380" loading="lazy" alt="Deer" class="about-img w-100">
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">
+              <img src="assets/rc.png" width="32" height="7" alt="Wavy line">
+
+              <span>ABOUT</span>
+            </p>
+
+            <h2 class="h2 section-title">
+              Synergy <span>of the</span> <strong>Chains</strong>
+            </h2>
+
+            <ul class="tab-nav">
+
+              <li>
+                <button class="tab-btn active">Our Mission</button>
+              </li>
+
+
+            </ul>
+
+            <div class="tab-content">
+
+              <p class="section-text">
+                Our platform offers two core services:
+              </p>
+
+              <ul class="tab-list">
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text"><strong>ReliefChain 1.0</strong>A real-time, AI-powered disaster relief system
+                    designed to detect, predict, and respond to disasters with unprecedented efficiency. Through smart
+                    contracts, our platform coordinates the deployment of drones carrying essential supplies, ensuring
+                    that help reaches those in critical need, fast. </p>
+                </li>
+                <span><span>..............................................................................................................................................................................</span></span>
+
+                <li class="tab-item">
+                  <div class="item-icon">
+                    <ion-icon name="checkmark-circle"></ion-icon>
+                  </div>
+
+                  <p class="tab-text"><strong>ReliefChain 2.0</strong> A real-time, AI-powered disaster relief system
+                    designed to detect, predict, and respond to disasters with unprecedented efficiency. Through smart
+                    contracts, our platform coordinates the deployment of drones carrying essential supplies, ensuring
+                    that help reaches those in critical need, fast.</p>
+                </li>
+
+
+              </ul>
+
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta">
+        <div class="container">
+
+          <div class="cta-content">
+            <h2 class="h5" style="color:azure;">commitment to transparency, <span>speed and innovation
+              </span><br>scalable and adaptable</h2>
+
+          </div>
+
+          <figure class="cta-banner">
+            <img src="assets/example2.jpg" width="520" height="228" loading="lazy" alt="Fox" class="img-cover">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" style="background-image: url('./assets/images/service-map.png')">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <img src="assets/rc.png" width="32" height="7" alt="Wavy line">
+
+          </p>
+
+          <h2 class="h2 section-title">
+            From Calamity to Relief, we're in this together. <strong>Join us on RELIEFCHAIN to help aid those in need
+              instantly.</strong>
+          </h2>
+
+        </div>
+      </section>
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" >
+    <div class="contact" id="contact" style="margin-left: 5vw;">
+      <h2><strong>CONTACT US</strong></h2>
+      At ReliefChain, we are committed to making a real difference by connecting communities with quick aid during
+      disasters and providing a seamless resource marketplace for remote areas. Whether you have questions, need
+      assistance, or want to explore partnership opportunities, we're here to help.
+
+      <span><strong>Get in Touch:</strong></span>
+      Email: support@reliefchain.com
+      <span>.....</span>
+    </div>
+    <span></span>
+    <div class="footer-contain" style=" background-color:rgb(34,31,29) ; display:flex; justify-content:space-around; ">
+
+      <ul class="footer-list">
+
+        <li>
+          <a href="#" class="footer-link">Terms of use</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy & Policy</a>
+        </li>
+
+      </ul>
+
+      <p class="social-link">
+      <div class="social-grid" style="display:flex">
+        <a href="https://instagram.com" target="_blank"><img src="./assets/insta.png" alt="" style="height: 3vw;"></a>
+        <a href="https://x.com" target="_blank"><img src="./assets/twitter.png" alt="" style="height: 3vw;"></a>
+      </div>
+      </p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

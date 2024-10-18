@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RELIEFCHAIN</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="assets/rc.png">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Oswald:wght@600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="index.html" class="logo">
+          <img src="assets/reliefchain.png" alt="">
+        </a>
+      </h1>
+
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">RELIEFCHAIN</a>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>
+              <span>Home</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="index.html#about" class="navbar-link" data-nav-link>
+              <span>About</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+
+          <li>
+            <a href="chain-one.html" class="navbar-link">
+              <span>ReliefChain 1.0</span>
+            </a>
+          </li>
+
+
+          <li>
+            <a href="chain-two.html" class="navbar-link">
+              <span>ReliefChain 2.0</span>
+            </a>
+          </li>
+
+
+
+
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>
+              <span>Contact</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-action">
+
+
+
+        <a href="donate.html">
+          <button class="btn btn-primary">
+            <span>Donate Now</span>
+          </button>
+        </a>
+
+
+      </div>
+
+    </div>
+  </header>
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <main>
+            <h2>Welcome, Buyer!</h2>
+            <p><i>Available Products/Resources</i></p>
+
+            <div class="product-list" id="product-list"
+              style="background-color: rgba(109, 109, 109, 0.25); padding:10px; border-radius:15px; margin:10px">
+              <!-- Static products -->
+
+              <div class="product-item">
+                <strong>Coffee Beans</strong>
+                <tt>Price: </tt>$10 <br>
+                <tt>Origin:</tt> Assam hills <br>
+                <tt>Stock:</tt> 100 <br>
+                <tt>Transportation:</tt> Drone
+                <button onclick="addToCart('Coffee Beans', 10)"
+                  style="background-color: rgb(97,192,154,0.7); margin:5px; border-radius:10px; padding:2px 10px 2px 10px">Add
+                  to Cart</button>
+              </div>
+              <hr>
+              <div class="product-item">
+                <strong>Milk</strong>
+                <tt>Price: </tt>$7 <br>
+                <tt>Origin:</tt> Haryana <br>
+                <tt>Stock:</tt> 20 <br>
+                <tt>Transportation:</tt> Drone
+                <button onclick="addToCart('Milk', 7)"
+                  style="background-color: rgb(97,192,154,0.7); margin:5px; border-radius:10px; padding:2px 10px 2px 10px">Add
+                  to Cart</button>
+              </div>
+              <hr>
+              <div class="product-item">
+                <strong>Tea Bags</strong>
+                <tt>Price: </tt>$5 <br>
+                <tt>Origin:</tt> Assam hills <br>
+                <tt>Stock:</tt> 200 <br>
+                <tt>Transportation:</tt> Peronsal Vendor
+                <button onclick="addToCart('Tea Bags', 5)"
+                  style="background-color: rgb(97,192,154,0.7); margin:5px; border-radius:10px; padding:2px 10px 2px 10px">Add
+                  to Cart</button>
+              </div>
+              <hr>
+              <div class="product-item">
+                <strong>Egg</strong>
+                <tt>Price: </tt>$2 <br>
+                <tt>Origin:</tt> Haryana <br>
+                <tt>Stock:</tt> 20 <br>
+                <tt>Transportation:</tt> Drone
+                <button onclick="addToCart('Egg', 2)"
+                  style="background-color: rgb(97,192,154,0.7); margin:5px; border-radius:10px; padding:2px 10px 2px 10px">Add
+                  to Cart</button>
+              </div>
+              <hr>
+
+            </div>
+            <!-- More products can be added here -->
+
+            <div class="cart" id="cart"
+              style="background-color: rgba(109, 109, 109, 0.25); padding:10px; border-radius:15px; margin:10px">
+              <h2>Your Cart: <h3><tt>--EMPTY--</tt></h3>
+              </h2>
+            </div>
+            
+          </main>
+
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+    </article>
+  </main>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="contact" id="contact" style="margin-left: 5vw;">
+      <h2><strong>CONTACT US</strong></h2>
+      At ReleaseChain, we are committed to making a real difference by connecting communities with quick aid during
+      disasters and providing a seamless resource marketplace for remote areas. Whether you have questions, need
+      assistance, or want to explore partnership opportunities, we're here to help.
+
+      <span><strong>Get in Touch:</strong></span>
+      Email: support@reliefchain.com
+      <span>.....</span>
+    </div>
+    <span></span>
+    <div class="container" style="width: 100%;">
+
+      <ul class="footer-list">
+
+        <li>
+          <a href="#" class="footer-link">Terms of use</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy & Policy</a>
+        </li>
+
+      </ul>
+
+      <p class="social-link">
+      <div class="social-grid" style="display:flex">
+        <a href="https://instagram.com" target="_blank"><img src="./assets/insta.png" alt="" style="height: 3vw;"></a>
+        <a href="https://x.com" target="_blank"><img src="./assets/twitter.png" alt="" style="height: 3vw;"></a>
+      </div>
+      </p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+
+
+
+  <script>
+    var cartItems = [];
+
+    function addToCart(productName, price) {
+      // Check if the item already exists in the cart
+      var existingItem = cartItems.find(item => item.name === productName);
+
+      if (existingItem) {
+        // If it exists, increment the quantity
+        existingItem.quantity += 1;
+      } else {
+        // If it doesn't exist, add it to the cart with quantity 1
+        cartItems.push({ name: productName, price: price, quantity: 1 });
+      }
+
+      displayCart();
+    }
+
+    function displayCart() {
+      var cartHtml = '<h2>Your Cart:</h2>';
+      var totalValue = 0;
+
+      cartItems.forEach(function (item) {
+        var itemTotal = item.price * item.quantity;
+        totalValue += itemTotal;
+
+        cartHtml += '<div>' + item.quantity + ' ' + item.name + ' - $' + item.price + ' (Total: $' + itemTotal.toFixed(2) + ')</div>';
+      });
+
+      // Display total value of the cart
+      cartHtml += '<u><h3>Total : $' + totalValue.toFixed(2) + '</h3></u>';
+
+      document.getElementById('cart').innerHTML = cartHtml;
+    }
+  </script>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+
+
+</html>

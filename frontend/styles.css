@@ -1,0 +1,670 @@
+/*! CSS Used from: https://niceee.org/static/css/main.886f8d07.chunk.css */
+body {
+    background: #a7d1e8;
+    margin: 0;
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body,
+  html {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: 0.05;
+  }
+  /*! CSS Used from: Embedded */
+  .iHheiD {
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.125);
+    border: 0px;
+    color: rgba(61, 60, 62, 0.78);
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    height: 36px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    outline: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+  }
+  .iHheiD:hover {
+    background-color: rgba(255, 255, 255, 0.106);
+  }
+  .djFvhP {
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.125);
+    border: 0px;
+    color: rgba(255, 255, 255, 0.816);
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    height: 56px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    outline: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 100%;
+  }
+  .djFvhP:hover {
+    background-color: rgba(255, 255, 255, 0.106);
+  }
+  .jCkvcC {
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.125);
+    border: 0px;
+    color: rgba(255, 255, 255, 0.816);
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    height: 56px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    outline: none;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 100%;
+  }
+  .jCkvcC:hover {
+    background-color: rgba(255, 255, 255, 0.106);
+  }
+  .dcfgDq {
+    -webkit-box-align: center;
+    align-items: center;
+    color: inherit;
+    display: flex;
+    flex: 1 1 0%;
+    height: 56px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 0px -24px;
+    padding: 0px 24px;
+    text-decoration: none;
+  }
+  .pPyRS {
+    font-size: 36px;
+    height: 80px;
+    width: 80px;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 0px auto 16px;
+  }
+  .gIKdBx {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    position: relative;
+    width: 100%;
+    max-width: 512px;
+  }
+  @media (max-width: 400px) {
+    .gIKdBx {
+      flex: 1 1 0%;
+      position: absolute;
+      top: 100%;
+      right: 0px;
+      left: 0px;
+      max-height: calc(100% - 24px);
+      animation: 0.3s ease-out 0s 1 normal forwards running ;
+    }
+  }
+  .WEbmm {
+    padding: 0px 20px;
+    background: rgba(87, 77, 67, 0.733);
+    /* box-shadow: rgba(255, 255, 255, 0.106) 1px 1px 0px inset; */
+    border: 2px black solid;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    min-height: 0px;
+}
+  .bEeHZh {
+    height: 24px;
+    width: 24px;
+  }
+  .bEMWxh {
+    height: 48px;
+    width: 48px;
+  }
+  .inZmvp {
+    height: 8px;
+    width: 8px;
+  }
+  .iHTPiA {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    margin: 0px;
+    padding: 24px;
+  }
+  .dryRrI {
+    flex: 1 1 0%;
+  }
+  .hPXEYS {
+    padding: 24px;
+  }
+  @media (max-width: 400px) {
+    .hPXEYS {
+      flex: 1 1 0%;
+      overflow: auto;
+    }
+  }
+  .dZPJhz {
+    box-sizing: border-box;
+    margin: 0px auto;
+    max-width: 1200px;
+    padding: 0px 24px;
+    width: 100%;
+  }
+  .cAVTfS {
+    box-sizing: border-box;
+    margin: 0px auto;
+    max-width: 600px;
+    padding: 0px 24px;
+    width: 100%;
+  }
+  .cAXtrQ {
+    box-sizing: border-box;
+    margin: 0px auto;
+    max-width: 800px;
+    padding: 0px 24px;
+    width: 100%;
+  }
+  .liuvoF {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 0px;
+    min-height: 44px;
+    min-width: 44px;
+    padding: 0px;
+    text-decoration: none;
+  }
+  .fHFEkn {
+    color: rgba(255, 255, 255, 0.87);
+    font-family: "South Park", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+    margin-left: 8px;
+  }
+  @media (max-width: 600px) {
+    .fHFEkn {
+      white-space: normal;
+      font-size: 14px;
+    }
+  }
+  @media (max-width: 500px) {
+    .fHFEkn {
+      display: none;
+    }
+  }
+  .fdffTR {
+    font-family: "South Park", sans-serif;
+  }
+  .gDLPQT {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
+  .iEpQIH {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
+  .hdNwoZ {
+    background-color: rgba(255, 255, 255, 0.125);
+    text-align: center;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    border: 1px black solid;
+    border-radius: 5px;
+    
+}
+  .bWHweQ {
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    padding: 16px;
+  }
+  .iTwqBD {
+    color: rgba(61, 60, 62, 0.91);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 24px;
+    text-align: center;
+  }
+  .bXaA-dA {
+    display: flex;
+    /* flex-wrap: wrap; */
+    -webkit-box-pack: center;
+    justify-content: space-evenly;
+    /* background-color: bisque !important; */
+  }
+  @media (max-width: 400px) {
+    .bXaA-dA {
+      flex-direction: column;
+    }
+  }
+  .eUqWrw {
+    flex-basis: calc(50% - 8px);
+  }
+  .gMhtJZ {
+    color: rgba(61, 60, 62, 0.5);
+  }
+  .lhPqhH {
+    font-family: "Roboto Mono", monospace;
+    color: rgba(61, 60, 62, 0.91);
+    font-size: 36px;
+    font-weight: 700;
+  }
+  .oPqrM {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+  }
+  @media (min-width: 850px) {
+    .oPqrM {
+      margin-left: -90px;
+    }
+  }
+  .iAQKnV {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 700;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+  }
+  .iAQKnV:hover {
+    color: rgba(255, 255, 255, 0.816);
+  }
+  @media (max-width: 400px) {
+    .iAQKnV {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  }
+  .caFkFj {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 700;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+  }
+  .caFkFj:hover {
+    color: rgba(255, 255, 255, 0.816);
+  }
+  .caFkFj.active {
+    color: rgba(61, 60, 62, 0.78);
+  }
+  @media (max-width: 650px) {
+    .caFkFj {
+      display: none;
+    }
+  }
+  .gHFfiY {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 700;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+  }
+  .gHFfiY:hover {
+    color: rgba(255, 255, 255, 0.816);
+  }
+  @media (max-width: 420px) {
+    .gHFfiY {
+      display: none;
+    }
+  }
+  .gFdOpT {
+    color: rgba(255, 255, 255, 0.75);
+    font-weight: 700;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+  }
+  .gFdOpT:hover {
+    color: rgba(255, 255, 255, 0.816);
+  }
+  @media (max-width: 400px) {
+    .gFdOpT {
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+  }
+  .crVslF {
+    width: 260px;
+  }
+  @media (max-width: 400px) {
+    .crVslF {
+      width: auto;
+    }
+  }
+  .blkHip {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    height: 72px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+  }
+  .eGqnrC {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    width: 156px;
+  }
+  @media (max-width: 400px) {
+    .eGqnrC {
+      -webkit-box-pack: center;
+      justify-content: center;
+      width: auto;
+    }
+  }
+  .dpbdIG {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+  }
+  .fiqCOg {
+    color: rgba(255, 255, 255, 0.75);
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+  }
+  .fiqCOg:hover {
+    color: rgba(255, 255, 255, 0.816);
+  }
+  .gwofgg {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .QHnbl {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 88px;
+    width: 100%;
+  }
+  .fJTqlY {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 144px);
+  }
+  .esWqrS {
+    -webkit-box-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 48px;
+    padding-top: 48px;
+    margin: 0px auto;
+  }
+  .dYGFxX {
+    text-align: center;
+    font-family: "South Park", sans-serif;
+    color: rgba(61, 60, 62, 0.46);
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0px;
+    padding: 14px 0px 0px;
+  }
+  .bqICRP {
+    color: rgba(61, 60, 62, 0.46);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+  .acRLU {
+    box-shadow: rgba(0, 0, 0, 0.03) 0px 3px 7px 2px;
+    background: rgba(0, 0, 0, 0.12);
+    font-size: 14px;
+    padding: 8px 20px;
+    color: rgba(255, 255, 255, 0.75);
+  }
+  .kMrhLB {
+    font-family: "Roboto Mono", monospace;
+    float: right;
+    font-weight: 800;
+  }
+  .fdQMzo {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+  }
+  @media (max-width: 768px) {
+    .fdQMzo {
+      width: 100%;
+      flex-flow: column nowrap;
+      -webkit-box-align: stretch;
+      align-items: stretch;
+    }
+  }
+  @media (max-width: 768px) and (min-width: 420px) {
+    .fZlvaI {
+      position: absolute;
+    }
+  }
+  @media (max-width: 420px) and (max-width: 768px) {
+    .fZlvaI {
+      height: 12vw;
+    }
+  }
+  .jMrVnB {
+    display: flex;
+  }
+  .fEGvjZ {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex: 1 1 0%;
+  }
+  .cCGiGs {
+    color: rgba(255, 255, 255, 0.816);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+  /*! CSS Used fontfaces */
+  @font-face {
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotomono/v12/L0x5DF4xlVMF-BfR8bXMIjhGq3-OXg.woff2)
+      format("woff2");
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+      U+FE2E-FE2F;
+  }
+  @font-face {
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotomono/v12/L0x5DF4xlVMF-BfR8bXMIjhPq3-OXg.woff2)
+      format("woff2");
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  @font-face {
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotomono/v12/L0x5DF4xlVMF-BfR8bXMIjhIq3-OXg.woff2)
+      format("woff2");
+    unicode-range: U+0370-03FF;
+  }
+  @font-face {
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotomono/v12/L0x5DF4xlVMF-BfR8bXMIjhEq3-OXg.woff2)
+      format("woff2");
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+      U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  @font-face {
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotomono/v12/L0x5DF4xlVMF-BfR8bXMIjhFq3-OXg.woff2)
+      format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+      U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotomono/v12/L0x5DF4xlVMF-BfR8bXMIjhLq38.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+      U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotomono/v12/L0x5DF4xlVMF-BfR8bXMIjhGq3-OXg.woff2)
+      format("woff2");
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+      U+FE2E-FE2F;
+  }
+  @font-face {
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotomono/v12/L0x5DF4xlVMF-BfR8bXMIjhPq3-OXg.woff2)
+      format("woff2");
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+  }
+  @font-face {
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotomono/v12/L0x5DF4xlVMF-BfR8bXMIjhIq3-OXg.woff2)
+      format("woff2");
+    unicode-range: U+0370-03FF;
+  }
+  @font-face {
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotomono/v12/L0x5DF4xlVMF-BfR8bXMIjhEq3-OXg.woff2)
+      format("woff2");
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+      U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+  }
+  @font-face {
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotomono/v12/L0x5DF4xlVMF-BfR8bXMIjhFq3-OXg.woff2)
+      format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+      U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: "Roboto Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/robotomono/v12/L0x5DF4xlVMF-BfR8bXMIjhLq38.woff2)
+      format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+      U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
+      U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: "South Park";
+    src: url(https://niceee.org/fonts/southpark.ttf) format("truetype");
+  }
+
+
+  .logo img {
+    width: 10vw;
+  }
+
+
+  body {
+    background-image: url("assets/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    min-height: 780px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  

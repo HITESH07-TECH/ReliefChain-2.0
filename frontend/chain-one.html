@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RELIEFCHAIN</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="assets/rc.png">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Roboto:wght@300;400;500;700&family=Oswald:wght@600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="index.html" class="logo">
+          <img src="assets/reliefchain.png" alt="">
+        </a>
+      </h1>
+
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">RELIEFCHAIN</a>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link" data-nav-link>
+              <span>Home</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="index.html#about" class="navbar-link" data-nav-link>
+              <span>About</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+
+          <li>
+            <a href="chain-one.html" class="navbar-link">
+              <span>ReliefChain 1.0</span>
+            </a>
+          </li>
+
+
+          <li>
+            <a href="chain-two.html" class="navbar-link">
+              <span>ReliefChain 2.0</span>
+            </a>
+          </li>
+
+
+
+
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>
+              <span>Contact</span>
+
+              <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-action">
+
+
+
+        <a href="donate.html">
+          <button class="btn btn-primary">
+            <span>Donate Now</span>
+          </button>
+        </a>
+
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <img src="assets/rc.png" width="32" height="7" alt="Wavy line">
+
+            <span>welcome to ReliefChain 1.0</span>
+          </p>
+
+          <h2 class="h1 hero-title">
+            <strong>Disaster Relief </strong>Operations
+          </h2>
+
+          <p class="hero-text">
+            ReliefChain 1.0 focuses on providing immediate, AI-powered disaster relief when it's needed most. Leveraging cutting-edge technology, it predicts and detects natural disasters, ensuring that life-saving resources and support reach affected areas swiftly and efficiently.
+          </p>
+
+
+
+        </div>
+      </section>
+
+ 
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta">
+        <div class="container">
+
+          <div class="cta-content">
+            <h2 class="h2 section-title">324+ Trusted <br>Global Partners</h2>
+
+            <button class="btn btn-outline">
+              <span>Become a Partner</span>
+
+
+            </button>
+          </div>
+
+          <figure class="cta-banner">
+            <img src="assets/example2.jpg" width="520" height="228" loading="lazy" alt="Fox" class="img-cover">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" style="background-image: url('./assets/images/service-map.png')">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <img src="assets/rc.png" width="32" height="7" alt="Wavy line">
+
+            <span>What We Do</span>
+          </p>
+
+          <h2 class="h2 section-title">
+            We Work Differently to <strong>keep The World Safe</strong>
+          </h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="leaf-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Droughts</h3>
+
+                <p class="card-text">
+                  Click here to review drought relief schemes.
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span>Read More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="earth-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Landslides</h3>
+
+                <p class="card-text">
+                  Click here to review landslide relief schemes.
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span>Read More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="flower-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Wildfire</h3>
+
+                <p class="card-text">
+                  Click here to review wildfire relief schemes.
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span>Read More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="boat-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 card-title">Hailstorm</h3>
+
+                <p class="card-text">
+                  Click here to review hailstorm relief schemes.
+                </p>
+
+                <a href="#" class="btn-link">
+                  <span>Read More</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #DONATE
+      -->
+
+      <section class="section donate" id="donate">
+        <div class="container">
+
+          <ul class="donate-list">
+
+            <li>
+              <div class="donate-card">
+
+                <figure class="card-banner">
+                  <img src="assets/example3.jpg" width="520" height="325" loading="lazy" alt="Elephant"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="progress-wrapper">
+                    <p class="progress-text">
+                      <span>Raised</span>
+
+                      <data value="256">$256</data>
+                    </p>
+
+                    <data class="progress-value" value="83">83%</data>
+                  </div>
+
+                  <div class="progress-box">
+                    <div class="progress"></div>
+                  </div>
+
+                  <h3 class="h3 card-title">Assam : Flood Relief</h3>
+
+                  <div class="card-wrapper">
+
+                    <p class="card-wrapper-text">
+                      <span>Goal</span>
+
+                      <data class="green" value="34562">$34562</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>Raise</span>
+
+                      <data class="yellow" value="562">$562</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>To Go</span>
+
+                      <data class="cyan" value="864">$864</data>
+                    </p>
+
+                  </div>
+
+                  <a href="donate.html">
+                    <button class="btn btn-secondary">
+                      <span>Donation</span>
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="donate-card">
+
+                <figure class="card-banner">
+                  <img src="assets/example4.jpg" width="520" height="325" loading="lazy" alt="Elephant"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="progress-wrapper">
+                    <p class="progress-text">
+                      <span>Raised</span>
+
+                      <data value="256">$256</data>
+                    </p>
+
+                    <data class="progress-value" value="83">83%</data>
+                  </div>
+
+                  <div class="progress-box">
+                    <div class="progress"></div>
+                  </div>
+
+                  <h3 class="h3 card-title">Mumbai : Earthquake Relief</h3>
+
+                  <div class="card-wrapper">
+
+                    <p class="card-wrapper-text">
+                      <span>Goal</span>
+
+                      <data class="green" value="34562">$34562</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>Raise</span>
+
+                      <data class="yellow" value="562">$562</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>To Go</span>
+
+                      <data class="cyan" value="864">$864</data>
+                    </p>
+
+                  </div>
+
+                  <a href="donate.html">
+                    <button class="btn btn-secondary">
+                      <span>Donation</span>
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="donate-card">
+
+                <figure class="card-banner">
+                  <img src="assets/example5.jpg" width="520" height="325" loading="lazy" alt="Elephant"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="progress-wrapper">
+                    <p class="progress-text">
+                      <span>Raised</span>
+
+                      <data value="256">$256</data>
+                    </p>
+
+                    <data class="progress-value" value="83">83%</data>
+                  </div>
+
+                  <div class="progress-box">
+                    <div class="progress"></div>
+                  </div>
+
+                  <h3 class="h3 card-title">Delhi : Earthquake Relief</h3>
+
+                  <div class="card-wrapper">
+
+                    <p class="card-wrapper-text">
+                      <span>Goal</span>
+
+                      <data class="green" value="34562">$34562</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>Raise</span>
+
+                      <data class="yellow" value="562">$562</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>To Go</span>
+
+                      <data class="cyan" value="864">$864</data>
+                    </p>
+
+                  </div>
+
+                  <a href="donate.html">
+                    <button class="btn btn-secondary">
+                      <span>Donation</span>
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="donate-card">
+
+                <figure class="card-banner">
+                  <img src="assets/example3.jpg" width="520" height="325" loading="lazy" alt="Elephant"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="progress-wrapper">
+                    <p class="progress-text">
+                      <span>Raised</span>
+
+                      <data value="256">$256</data>
+                    </p>
+
+                    <data class="progress-value" value="83">83%</data>
+                  </div>
+
+                  <div class="progress-box">
+                    <div class="progress"></div>
+                  </div>
+
+                  <h3 class="h3 card-title">Bengal : Flood Relief</h3>
+
+                  <div class="card-wrapper">
+
+                    <p class="card-wrapper-text">
+                      <span>Goal</span>
+
+                      <data class="green" value="34562">$34562</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>Raise</span>
+
+                      <data class="yellow" value="562">$562</data>
+                    </p>
+
+                    <p class="card-wrapper-text">
+                      <span>To Go</span>
+
+                      <data class="cyan" value="864">$864</data>
+                    </p>
+
+                  </div>
+
+                  <a href="donate.html">
+                    <button class="btn btn-secondary">
+                      <span>Donation</span>
+                      <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="testi">
+
+        <div class="testi-content">
+
+          <p class="section-subtitle">
+            <img src="assets/rc.png" width="32" height="7" alt="Wavy line">
+
+            <span>Our Testimonials</span>
+          </p>
+
+          <h2 class="h2 section-title">
+            What People Say About <strong>Our Organization</strong>
+          </h2>
+
+          <div class="testi-card">
+
+            <figure class="card-avatar">
+              <img src="assets/rc.png" width="60" height="60" loading="lazy" alt="David S. Neuman">
+            </figure>
+
+            <div>
+              <blockquote class="testi-text">
+                When disaster struck our town, we felt utterly helpless—our homes were gone, and everything seemed lost.
+                ReliefClaim became a lifeline for us. Through their platform, we could quickly raise funds for urgent
+                needs like food, shelter, and medical aid. The process was easy, and the transparency gave us peace of
+                mind, knowing exactly where the donations were going. What touched us most was the global community that
+                came together, people we’d never met showing kindness when we needed it most. Thanks to ReliefClaim, we
+                didn’t just receive financial help—we got hope and the chance to rebuild our lives. I can’t express
+                enough gratitude for what this platform made possible.
+              </blockquote>
+
+              <h3 class="testi-name">Jaya Kumar</h3>
+
+              <p class="testi-title">disaster relief beneficiary</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <figure class="testi-banner">
+          <img src="assets/long4.jpg" width="960" height="846" loading="lazy" alt="Rhinoceros" class="img-cover">
+        </figure>
+
+      </section>
+
+
+
+
+
+
+      <!-- 
+        - #EVENT
+      -->
+
+      <section class="section event" id="event">
+        <div class="container">
+
+          <p class="section-subtitle">
+            <img src="assets/rc.png" width="32" height="7" alt="Wavy line">
+
+            <span>Event & Program</span>
+
+            <img src="assets/rc.png" width="32" height="7" alt="Wavy line">
+          </p>
+
+          <h2 class="h2 section-title">
+            Trending <strong>Crowdfunding</strong> Causes
+          </h2>
+
+          <ul class="event-list">
+
+            <li>
+              <div class="event-card">
+
+                <time class="card-time" datetime="01-05">
+                  <span class="month">Aug</span>
+
+                  <span class="date">05</span>
+                </time>
+
+                <div class="wrapper">
+
+                  <div class="card-content">
+                    <p class="card-subtitle">Hurricane</p>
+
+                    <h3 class="card-title">Hurricane Aftermath Relief</h3>
+
+                    <p class="card-text">
+                      mobilizes a global network of donors to provide immediate relief.
+                    </p>
+                  </div>
+
+                  <button class="btn btn-white">
+                    <span>View Events</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card">
+
+                <time class="card-time" datetime="02-23">
+                  <span class="month">Jul</span>
+
+                  <span class="date">23</span>
+                </time>
+
+                <div class="wrapper">
+
+                  <div class="card-content">
+                    <p class="card-subtitle">Earthquake</p>
+
+                    <h3 class="card-title">Earthquake Recovery Fund</h3>
+
+                    <p class="card-text">
+                      partners with local relief organizations to raise funds for search-and-rescue operations.
+                    </p>
+                  </div>
+
+                  <button class="btn btn-white">
+                    <span>View Events</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="event-card">
+
+                <time class="card-time" datetime="03-27">
+                  <span class="month">Jul</span>
+
+                  <span class="date">27</span>
+                </time>
+
+                <div class="wrapper">
+
+                  <div class="card-content">
+                    <p class="card-subtitle">Flood</p>
+
+                    <h3 class="card-title">Flood Disaster Aid</h3>
+
+                    <p class="card-text">
+                      provide clean drinking water, sanitation, food supplies, and materials for rebuilding homes and
+                      farms.
+                    </p>
+                  </div>
+
+                  <button class="btn btn-white">
+                    <span>View Events</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </button>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <button class="btn btn-secondary">
+            <span>Learn More</span>
+
+
+          </button>
+
+        </div>
+      </section>
+
+
+    </article>
+  </main>
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="contact" id="contact" style="margin-left: 5vw;">
+      <h2><strong>CONTACT US</strong></h2>
+      At ReleaseChain, we are committed to making a real difference by connecting communities with quick aid during
+      disasters and providing a seamless resource marketplace for remote areas. Whether you have questions, need
+      assistance, or want to explore partnership opportunities, we're here to help.
+
+      <span><strong>Get in Touch:</strong></span>
+      Email: support@reliefchain.com
+      <span>.....</span>
+    </div>
+    <span></span>
+    <div class="container" style="width: 100%;">
+
+      <ul class="footer-list">
+
+        <li>
+          <a href="#" class="footer-link">Terms of use</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy & Policy</a>
+        </li>
+
+      </ul>
+
+      <p class="social-link">
+      <div class="social-grid" style="display:flex">
+        <a href="https://instagram.com" target="_blank"><img src="./assets/insta.png" alt="" style="height: 3vw;"></a>
+        <a href="https://x.com" target="_blank"><img src="./assets/twitter.png" alt="" style="height: 3vw;"></a>
+      </div>
+      </p>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
